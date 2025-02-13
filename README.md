@@ -12,7 +12,7 @@ _Please note that Tooth Social is not the final name and will be changed for the
 
 ### Problem Space
 <!-- Why is your app needed? Give any background information around any pain points or other reasons. -->
-Tooth Social 
+Tooth Social is an app where you can track the completion of daily tasks related to your dental care. Quantifying this data allows users to better understand their current dental health, identify key areas for improvement, and make changes to your habits where necessary. Caring for your teeth may be difficult for many reasons, whether you need a reminder to brush before bed or incentive to floss after meals when you really don't feel like it. Tooth Social helps you create and keep healthy habits regarding your oral healthcare. 
 
 ### User Profile
 <!-- Who will use your app? How will they use it? Add any special considerations that your app must take into account. -->
