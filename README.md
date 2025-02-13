@@ -61,26 +61,61 @@ A mockup of each page listed above can be found on this [Figma Board](https://ww
 
 ### Data
 <!-- Describe your data and the relationships between the data points. You can show this visually using diagrams, or write it out.  -->
-
+Data will be structured and pulled based on the endpoints below
 
 ### Endpoints
 <!-- List endpoints that your server will implement, including HTTP methods, parameters, and example responses. -->
-
+Custom Express API Server Endpoints:
+- GET logs for brush, floss, and mouthwash to display past activities
+    - GET /log/:id/brush
+    - GET /log/:id/floss
+    - GET /log/:id/mouthwash
+- POST new logs for brush, floss, and mouthwash to log new activities
+    - POST /log/:id/brush
+    - POST /log/:id/floss
+    - POST /log/:id/mouthwash
+- DELETE
+    - DELETE /log/:id/brush
+    - DELETE /log/:id/floss
+    - DELETE /log/:id/mouthwash
 
 ## Roadmap
 <!-- Scope your project as a sprint. Break down the tasks that will need to be completed and map out timeframes for implementation working back from the capstone due date.  -->
 
+- Create GitHub Repository & Create README.md
+
+- create HTML and CSS files for each page
+
+- Define and break up components for each page
+
+- Set up file folder structure
+
+- Create Data Endpoints
+
+- Define routes using react-router-dom
+
+- Bug Fixes
+
+- Define Design concepts and Style Guide
+
+- Styling & Responsive Design
+
+- Assignment Due Date
+
+- Additional Fixes or Styling Changes
+
+- Prepare Presentation
+
+- Demo Day
 
 ---
 
 ## Future Implementations
 <!-- Your project will be marked based on what you committed to in the above document. Here, you can list any additional features you may complete after the MVP of your application is built, or if you have extra time before the Capstone due date. -->
-In future, I would like to implement the following:
-1. eg
-2. eg
-3. Implement user ID validation and the ability to create an account/log into that account
-4. The ability to add other users as friends
-5. An activity feed to show an activity feed with friend's logged activities
-6. Notifications
+In future, I would like to implement the following improvements to the app:
+1. Implement user ID validation and the ability to create an account/log into that account
+2. The ability to add other users as friends
+3. An activity feed to show an activity feed with friend's logged activities
+4. Notifications
     - Notify user when it is time to complete a dental health task
-    - 
+    - Notify usser when friends have updated their activities
