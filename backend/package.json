@@ -1,0 +1,24 @@
+{
+  "name": "ana-ward-capstone",
+  "version": "1.0.0",
+  "description": "Final Assignment for the BrainStation Software Engineering Program",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandagward/ana-ward-capstone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandagward/ana-ward-capstone/issues"
+  },
+  "homepage": "https://github.com/amandagward/ana-ward-capstone#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
