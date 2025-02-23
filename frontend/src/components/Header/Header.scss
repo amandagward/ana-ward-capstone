@@ -1,0 +1,12 @@
+@use '../../styles/partials/_global' as *;
+
+.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 1rem;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
