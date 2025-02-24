@@ -1,1 +1,9 @@
 @use '../../styles/partials/global' as *;
+
+.activity-wrapper {
+    color: $color-pearly-white;
+    background-color: $color-crest-blue;
+    margin: 2rem;
+    padding: 2rem;
+    width: 100%;
+}

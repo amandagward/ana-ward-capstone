@@ -42,7 +42,7 @@ router.put("/:id", function (request, response) {
     fs.writeFile("./data/activities.json", JSON.stringify(activities, null, "\t"), "utf8", (err) => {
         console.log("Failed to update", err)
     });
-    response.status(200);
+    response.status(200).json({ id: request.params.id });
 })
 
 // Delete an Activity from Activity Log
@@ -56,7 +56,7 @@ router.delete("/:id", function (request, response) {
         fs.writeFile("./data/activities.json", JSON.stringify(activities, null, "\t"), "utf8", (err) => {
             console.log("Failed to delete", err)
         });
-        response.status(200);
+        response.status(200).json({ id: request.params.id });
     }
 })
 
