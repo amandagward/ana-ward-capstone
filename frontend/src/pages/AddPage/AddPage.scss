@@ -1,0 +1,21 @@
+@use '../../styles/partials/global' as *;
+
+.page-wrapper {
+    padding: 1rem;
+    border-radius: 1rem;
+    color: $color-filling-black;
+    background-color: $color-pearly-white;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    button {
+        margin-bottom: 2rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        border: 1px solid $color-filling-black;
+        background-color: $color-listerine-mint;
+    }
+}
