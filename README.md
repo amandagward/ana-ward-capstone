@@ -9,6 +9,7 @@ To run the backend:
 - cd backend
 - npm i 
 - npm start
+
 To recompile the frontend:
 - cd frontend
 - npm i
