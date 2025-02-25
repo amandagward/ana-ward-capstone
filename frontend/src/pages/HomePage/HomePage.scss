@@ -1,1 +1,21 @@
 @use '../../styles/partials/global' as *;
+
+.HomePage {
+    display: flex;
+    text-align: center;
+    background-color: $color-pearly-white;
+    padding: 2rem;
+    border-radius: 2rem;
+
+    &__mobile {
+        color: $color-filling-black;
+    }
+
+    &__tablet {
+        display: none;
+    }
+
+    &__desktop {
+        display: none;
+    }
+}
