@@ -1,9 +1,24 @@
 @use '../../styles/partials/global' as *;
 
-.activity-wrapper {
+.activity {
     color: $color-pearly-white;
     background-color: $color-crest-blue;
-    margin: 2rem;
+    height: 100%;
     padding: 2rem;
-    width: 100%;
+    margin-bottom: 1rem;
+
+    &__button {
+        padding: .5rem 1.5rem;
+        border-radius: 1rem;
+        border: 1px solid $color-filling-black;
+        background-color: $color-listerine-mint;
+    }
+
+    @include tablet {
+        background-color: $color-floss-mint;
+    }
+
+    @include desktop {
+        background-color: $color-crest-blue;
+    }
 }

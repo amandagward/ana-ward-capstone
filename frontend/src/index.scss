@@ -9,6 +9,14 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: $color-floss-mint;
 
+  @include tablet {
+    background-color: $color-crest-blue;
+  }
+
+  @include desktop {
+    background-color: $color-brush-blue;
+  }
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -27,10 +35,15 @@ a:hover {
 
 body {
   margin: 0;
+}
+
+.content {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  height: calc(100vh - 245px);
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow-y: auto;
 }
 
 h1 {
@@ -51,11 +64,6 @@ li {
 
 button:hover {
   border-color: #646cff;
-}
-
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
 @media (prefers-color-scheme: light) {

@@ -25,13 +25,15 @@ export default function ActivityCard({ activity, tasks, onActivityDelete }) {
     }
 
     return (
-        <div className="activity-wrapper">
-            <select value={task} onChange={e => handleUpdateActivity(e.target.value)}>
-                {tasks != undefined && tasks.map((task) => {
-                    return <option value={task} key={task}> {task} </option>
-                })}</select>
+        <div className="activity">
+            <div className="activty__selector">
+                <select value={task} onChange={e => handleUpdateActivity(e.target.value)}>
+                    {tasks != undefined && tasks.map((task) => {
+                        return <option value={task} key={task}> {task} </option>
+                    })}</select>
+            </div>
             <p className="activity_date">{new Date(activity.timestamp).toLocaleString()}</p>
-            <button onClick={handleDeleteActivity}>delete</button>
+            <button className="activity__button" onClick={handleDeleteActivity}>delete</button>
         </div>
     )
 }

@@ -9,11 +9,13 @@ function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path="/add_task" element={<AddPage />} />
-        <Route path="/" element={<HomePage />} />
-        <Route path="/activity_log" element={<LogPage />} />
-      </Routes>
+      <div className="content">
+        <Routes>
+          <Route path="/add_task" element={<AddPage />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/activity_log" element={<LogPage />} />
+        </Routes>
+      </div>
       <Footer />
     </>
   )
