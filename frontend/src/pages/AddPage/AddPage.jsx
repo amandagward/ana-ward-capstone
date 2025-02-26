@@ -19,6 +19,7 @@ export default function AddPage() {
             `http://localhost:8080/activities/${task}`,
             { "Content-Type": "application/json" }
         );
+        alert(`${task} added`);
     }
 
     return (
